@@ -1,0 +1,1 @@
+Today, the first thing we learned was git command and repos. We learned how to create one on GitHub, clone it, add a new branch and work on it, add it, commit it, push it, merge it, switch between brances, delete the branch from GitHub and local, and then pull main again from Github
