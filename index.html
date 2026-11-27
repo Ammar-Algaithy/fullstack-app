@@ -38,41 +38,43 @@
                     <fieldset>
                         <legend>Your details</legend>
                         <div>
-                            <lable>Your name</lable>
+                            <label for="name">Your name</label>
                             <input type="text" id="name" name="name" required minlength="3">
                         </div>
                         <div>
-                            <lable>Your email</lable>
+                            <label for="email">Your email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                     </fieldset>
                     <fieldset>
                         <legned>Reason</legned>
                         <div>
-                            <lable>
-                                <input type="radio" name="reason" id="job">
+                            <label for="job">
+                                <input type="radio" name="reason" id="job" value="job" checked>
                                 Job
-                            </lable>
+                            </label>
                         </div>
                         <div>
-                            <lable>
-                                <input type="radio" name="reason" id="project">
+                            <label for="project">
+                                <input type="radio" name="reason" id="project" value="project">
                                 Project
-                            </lable>
+                            </label>
                         </div>
                         <div>
-                            <lable>
-                                <input type="radio" name="reason" id="other">
+                            <label for="other">
+                                <input type="radio" name="reason" id="other" value="other">
                                 Other
-                            </lable>
+                            </label>
                         </div>
                     </fieldset>
                     <fieldset>
-                        <legend>Message</legend>
-                        <textarea id="message" required maxlength="500"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required maxlength="500"></textarea>
                     </fieldset>
-                    <input type="radio" name="get-copy" id="get-copy">
-                    <lable>Send me a copy</lable>
+                    <div>
+                        <input type="checkbox" name="get-copy" id="get-copy">
+                        <label>Send me a copy</label>
+                    </div>
                     <button type="submit">Send</button>
                 </form>
             </section>
